@@ -17,7 +17,7 @@ export class UserserviceService {
  // Metodos GET para obtener datos de la API users
 
 getUsersAll():Observable<Users[]>{
-   let apiUser = environment.apiUrl + 'vista/';
+   let apiUser = 'http://localhost:/apirest/' + 'vista/'; //+
    return this.http.get<Users[]>(apiUser);
  } 
 

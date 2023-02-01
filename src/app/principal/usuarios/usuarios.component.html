@@ -4,17 +4,17 @@
     <table class="table table-hover">
       <thead>
         <tr>
-          <th class="text-center">ID</th>
-          <th class="text-center">NOMBRE</th>
-          <th class="text-center">USUARIO</th>
-          <th class="text-center">EMAIL</th>
+          <th class="">ID</th>
+          <th class="">NOMBRE</th>
+          <th class="">USUARIO</th>
+          <th class="">EMAIL</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let item of listado">
           <td>{{ item.id }}</td>
           <td>{{ item.name }}</td>
-          <td>{{ item.usuario }}</td>
+          <td>{{ item.username }}</td>
           <td>{{ item.email }}</td>
         </tr>
       </tbody>
